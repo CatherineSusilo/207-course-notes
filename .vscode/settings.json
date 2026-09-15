@@ -1,0 +1,11 @@
+{
+    "editor.suggestOnTriggerCharacters": false,
+    "editor.suggest.selectionMode": "never",
+    "editor.inlineSuggest.edits.allowCodeShifting": "never",
+    "github.copilot.nextEditSuggestions.allowWhitespaceOnlyChanges": false,
+    "github.copilot.nextEditSuggestions.enabled": false,
+    "github.copilot.nextEditSuggestions.extendedRange": false,
+    "github.copilot.renameSuggestions.triggerAutomatically": false,
+    "editor.hover.enabled": "on",
+    "editor.hover.sticky": false
+}
