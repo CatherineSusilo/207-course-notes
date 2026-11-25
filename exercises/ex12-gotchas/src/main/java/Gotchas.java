@@ -1,3 +1,5 @@
+import java.util.Objects;
+
 /**
  * Exercise (Chapter 5: Java Gotchas and Subtleties) — shadowing, array copying,
  * and autoboxing.
@@ -58,6 +60,6 @@ public class Gotchas {
    * @return true iff a and b hold the same int value
    */
   public static boolean sameValue(Integer a, Integer b) {
-    return a.intValue() == b.intValue();
+    return Objects.equals(a, b);
   }
 }
